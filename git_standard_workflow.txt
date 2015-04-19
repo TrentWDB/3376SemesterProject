@@ -1,0 +1,26 @@
+In order to commit changes:
+git status (to see what all you've changed)
+git add -u (to add all updated)
+git add File.h (to add a file)
+git rm File.h (to remove a file)
+git status (to be sure you got everything staged)
+git commit -m "short message describing what you did"
+
+If you're trying to update your code to match the server you say:
+[be sure you have all your changes committed]
+git fetch origin master (to copy origin master to your local origin/master)
+git merge origin/master (to put your changes on top of origin/master)
+
+If you're trying to push your code to the server:
+[be sure you have merged origin/master]
+git push origin master (to push your changes to the server)
+
+
+Overall:
+git status
+git add -u
+git add NewFile.h
+git commit -m "added NewFile.h and edited OldFile.h"
+git fetch origin master
+git merge origin/master
+git push origin master

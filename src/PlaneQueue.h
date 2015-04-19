@@ -2,15 +2,15 @@
 #define PLANEQUEUE_H
 
 #include <list>
-
+#include "Plane.h"
 using namespace std;
 
 class PlaneQueue {
   list<Plane> planeList;
   public:
-    void queuePlane(Plane& plane);
-    void dequeuePlane();
+    void queue(Plane& plane);
+    Plane dequeue();
     int getQueueLength();
-}
+};
 
 #endif
