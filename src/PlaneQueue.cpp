@@ -1,16 +1,21 @@
 #include "PlaneQueue.h"
+using namespace std;
 
 void PlaneQueue::queue(Plane& plane)
 {
-  //do stuff
+    planeList.push_back(plane);
+    return;
 }
 
-Plane PlaneQueue::dequeue()
+Plane& PlaneQueue::dequeue()
 {
-  //do stuff
+    Plane& tempPlane = planeList.front();
+    planeList.pop_front();
+
+    return tempPlane;
 }
 
 int PlaneQueue::getQueueLength()
 {
-  //do stuff
+    return planeList.size();
 }

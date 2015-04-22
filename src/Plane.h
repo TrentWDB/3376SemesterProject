@@ -1,10 +1,12 @@
 #ifndef PLANE_H
 #define PLANE_H
-class Plane {
-private:
-int timecreated;
 
+class Plane {
 public:
-int getcreated(){return timecreated;}
+    int getCreated();
+
+private:
+    int timeCreated;
 };
+
 #endif

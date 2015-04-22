@@ -6,10 +6,12 @@
 using namespace std;
 
 class PlaneQueue {
-  list<Plane> planeList;
-  public:
+private:
+    list<Plane> planeList;
+
+public:
     void queue(Plane& plane);
-    Plane dequeue();
+    Plane& dequeue();
     int getQueueLength();
 };
 
