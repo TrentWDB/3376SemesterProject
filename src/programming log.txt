@@ -1,4 +1,11 @@
 4/3/15 Meeting
 	Time: 1:00
 	Present: Trent Davies, James Bloom, (Winston has a family emergency)
-	Design decisions: 
+	Design decisions: Split project into 6 classes.
+
+4/4/15 Programming
+
+4/21/15 Programming
+    Time: 0:30
+    Trent Davies
+    Finished Plane.h Plane.cpp PlaneQueue.h PlaneQueue.cpp
