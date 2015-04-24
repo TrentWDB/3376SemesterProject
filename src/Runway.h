@@ -1,5 +1,4 @@
-class Runway
-{
+class Runway{
 private:
 	int timeleft;
 public:
