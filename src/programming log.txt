@@ -9,3 +9,10 @@
     Time: 0:30
     Trent Davies
     Finished Plane.h Plane.cpp PlaneQueue.h PlaneQueue.cpp
+
+4/24/15 Programming/Emailing
+	Time: 13:25
+	Winston Carlile
+	Consulted James about interface between StatTracker.cpp and MainProgram.cpp
+	Revised StatTracker.h to include accessor function
+	Added accessor functions to StatTracker.cpp
