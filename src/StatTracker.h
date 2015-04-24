@@ -1,9 +1,14 @@
 class StatTracker {
 private:
-  static float totalLandTime, totalTakeoffTime;
-  static int landcount, takecount, crashcount;
+  static int totalLandTime, totalTakeoffTime;
+  static int landCount, takeCount, crashCount;
 public:
   static void addLanding(int waittime);
   static void addTakeoff(int waittime);
   static void addCrash();
+  static int getTotalLandings();
+  static int getTotalTakeoffs();
+  static int getTotalCrashes();
+  static float getAvgLandTime();
+  static float getAvgTakeOffTime();
 };
