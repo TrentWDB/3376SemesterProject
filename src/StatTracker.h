@@ -13,7 +13,7 @@ public:
   static int getTotalTakeoffs();
   static int getTotalCrashes();
   static float getAvgLandTime();
-  static float getAvgTakeOffTime();
+  static float getAvgTakeoffTime();
 };
 
 #endif

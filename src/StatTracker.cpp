@@ -8,7 +8,7 @@ void StatTracker::addTakeoff(int waittime){
   takeCount++; //Increments the number of takeoffs by one
 }
 void StatTracker::addCrash(){
-  crashcount++; //Increments the number of crashes by one
+  crashCount++; //Increments the number of crashes by one
 }
 int StatTracker::getTotalLandings(){ //Accessor function for 
   return landCount; 
