@@ -1,25 +1,27 @@
 #include "StatTracker.h"
-void addLanding(int waittime){
-  landCount++;
+using namespace std;
+
+void StatTracker::addLanding(int waittime){
+  landCount++; //Increments the number of Landings by one
 }
-void addTakeoff(int waittime){
-  takeCount++;
+void StatTracker::addTakeoff(int waittime){
+  takeCount++; //Increments the number of takeoffs by one
 }
-void addCrash(){
-  crashcount++;
+void StatTracker::addCrash(){
+  crashcount++; //Increments the number of crashes by one
 }
-int getTotalLandings(){
-  return landCount;
+int StatTracker::getTotalLandings(){ //Accessor function for 
+  return landCount; 
 }
-int getTotalTakeoffs(){
+int StatTracker::getTotalTakeoffs(){
   return takeCount;
 }
-int getTotalCrashes(){
+int StatTracker::getTotalCrashes(){
   return crashCount;
 }
-float getAvgLandTime(){
+float StatTracker::getAvgLandTime(){
   return ((float)totalLandTime)/landCount;
 }
-float getAvgTakeoffTime(){
+float StatTracker::getAvgTakeoffTime(){
   return ((float)totalTakeoffTime)/takeCount;
 }

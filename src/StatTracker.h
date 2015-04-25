@@ -1,3 +1,6 @@
+#ifndef STATTRACKER_H
+#define STATTRACKER_H
+
 class StatTracker {
 private:
   static int totalLandTime, totalTakeoffTime;
@@ -12,3 +15,5 @@ public:
   static float getAvgLandTime();
   static float getAvgTakeOffTime();
 };
+
+#endif
